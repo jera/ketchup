@@ -1,0 +1,9 @@
+ketchup:
+  id: 1
+  name: Ketchup
+  owner_id: 1
+
+tomalhando:
+  id: 2
+  name: Tô Malhando
+  owner_id: 2

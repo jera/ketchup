@@ -1,0 +1,18 @@
+jeffmor:
+  id: 1
+  username: jeffmor
+  password: secret
+  email: jeffmor@jera.com.br
+  
+abacha:
+  id: 2
+  username: abacha
+  password: secret
+  email: abacha@jera.com.br
+  
+dener:
+    id: 3
+    username: dener
+    password: black
+    email: dener@jera.com.br
+    active: false
