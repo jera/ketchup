@@ -16,6 +16,13 @@ describe User do
     User.create!(@valid_attributes) 
   end
   
+  it "should validate presences of username, password and email" do
+    user = User.new
+    user.should have(1).error_on(:username)
+    user.should have(1).error_on(:password)
+    user.should have(1).error_on(:email)
+  end
+  
   it "should validate uniqueless of username" do
     user = User.new @valid_attributes
     user.username = "jeffmor"
