@@ -13,14 +13,7 @@ describe User do
   end
 
   it "should create a new instance given valid attributes" do
-    User.create!(@valid_attributes)
-  end
-  
-  it "should validate presences of username, email and password" do
-    user = User.new
-    user.should have(1).error_on(:username) 
-    user.should have(1).error_on(:email)
-    user.should have(1).error_on(:password)
+    User.create!(@valid_attributes) 
   end
   
   it "should validate uniqueless of username" do
@@ -40,12 +33,5 @@ describe User do
     user.email = "invalid@email"
     user.should have(1).error_on(:email)
   end
-  
-  it 'should define namedscope all' do
-    users = User.all
-    users.size.should == 2
-    users[0].should == users(:abacha)
-    users[1].should == users(:jeffmor)
-  end
-  
+    
 end

@@ -1,10 +1,10 @@
 class User < ActiveRecord::Base
-  
-  validates_presence_of [:username, :password]
+
+  devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable,
+    :authentication_keys => [:username] 
+
   validates_uniqueness_of :username
-  validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
-  validates_confirmation_of :password
-  
-  named_scope :all, :conditions => ["active=?", true], :order => 'username'
+  attr_accessible :username, :email, :password, :password_confirmation
+  named_scope :all, :conditions => [], :order => 'username'
   
 end

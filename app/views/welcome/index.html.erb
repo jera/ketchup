@@ -1,3 +1,13 @@
-<h1>Welcome!</h1>
+<h1>Welcome <%= (user_signed_in?) ? current_user.username : 'Guest' %>!</h1>
 
-<%= link_to 'Sign up', new_user_path %>
+
+<% if user_signed_in? -%>
+  <div id="user_login_box" style="float:right">
+    <%= current_user.username %> |
+    <%= link_to 'My info', edit_user_registration_path %> |
+    <%= link_to 'Sign out', destroy_user_session_path %>
+  </div>
+<% else %>
+	<p><%= link_to 'Sign in', new_user_session_path %></p>
+	<p><%= link_to 'Sign up', new_user_registration_path %></p>
+<% end -%>

@@ -1,18 +1,21 @@
 jeffmor:
   id: 1
   username: jeffmor
-  password: secret
   email: jeffmor@jera.com.br
+  encrypted_password: d07b7555b6006d8c12ba11cce19e16659e02ee8b
+  password_salt: VQvvynJBS7l_OmBgsO_R
+  
   
 abacha:
   id: 2
   username: abacha
-  password: secret
   email: abacha@jera.com.br
+  encrypted_password: 613003910f02096859aa297da12cbcb8b55dee9b
+  password_salt: LUFj1UAm8MNlh-BycHPn
   
-dener:
+brunoaa:
     id: 3
-    username: dener
-    password: black
-    email: dener@jera.com.br
-    active: false
+    username: brunoaa
+    email: brunoaa@jera.com.br
+    encrypted_password: 6fc2518603993f8d5840137ad6245ed2e7de9c26
+    password_salt: hqsgtKXtXpd8u7PyzZqv

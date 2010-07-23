@@ -4,11 +4,17 @@ describe ProjectsController do
   integrate_views
   fixtures :users, :projects
   
+  before(:each) do
+    @user = users(:jeffmor)
+    request.env['warden'].stubs(:authenticate!) { @user }
+    #sign_in :user, @user
+  end
+  
   context "Create Project" do
     it "should instantiate new project" do
       get 'new'
       assigns[:project].should_not be_nil
-      assigns[:users].size.should == 2
+      assigns[:users].size.should == 3
     end
     
     it "should redirect with a notice on successful save" do
@@ -38,6 +44,11 @@ describe ProjectsController do
     it "should show projects of user" do
       get 'index'
       assigns[:projects].size.should == 2
+    end
+    
+    it "should show selected project" do
+      get 'show', :id => 1
+      assigns[:project].id.should == 1
     end
   end
   
