@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+div {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#container {
+	width: 900px;
+	margin: 20px auto;
+}
+
+div#top {
+	width: 900px;
+	height: 100px;
+	position: relative;
+	background: #EAEAEA;
+}
+
+div#top h1 {
+	padding: 10px;
+	font-size: 32px;
+}
+
+div#user {
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 11px;
+}
+
+div#menu {
+	position: absolute;
+	bottom: 0;
+	width: 900px;
+	height: 24px;
+}
+
+div#menu ul {
+}
+
+div#menu li {
+	display: inline-block;
+	border: 1px solid #333;
+	background: #DDD;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+div#menu li a {
+	text-decoration: none;
+	color: #333;
+}
+
+div#menu-system {
+	position: absolute;
+	left: 0;
+}
+
+div#menu-user {
+	position: absolute;
+	right: 0;
+}
+
+div#content {
+}
+
+div#content-left {
+	float: left;
+	border: 1px solid #ddd;
+	width: 683px;
+	padding: 5px;
+	margin: 10px 10px 20px 0px;
+}
+
+div#content-right {
+	float: right;
+	width: 195px;
+	margin: 10px 0px 20px 0px;
+}
+
+div.clear {
+	clear: both;
+	height: 0;
+}
+
+div#footer {
+	position: relative;
+	width: 900px;
+	height: 50px;
+}
+
+div#footer div {
+	display: inline-block;
+	font-size: 10px;
+}
+
+div#footer p {
+	margin: 2px;
+}
+
+div#footer logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#legal-text {
+	position: absolute;
+	left: 35px;
+	top: 2px;
+}
+
+div#license {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}

@@ -4,8 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Ketchup</title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <title>Ketchup - <%= yield :head %></title>
+  <%= stylesheet_link_tag 'application' %>
 </head>
 <body>
 
@@ -13,7 +13,48 @@
   <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String) %>
 <%- end -%>
 
+<div id="container">
+	<div id="top">
+		<h1>Ketchup</h1>
+		<div id="user">
+			<%= current_user.username %> | <%= link_to t('my-info'), edit_user_registration_path %> |
+		    <%= link_to t('sign-out'), destroy_user_session_path %>
+		</div>
+		<div id="menu">
+			<div id="menu-system">
+				<ul>
+					<li><%= link_to t('projects'), projects_path %></li>
+					<li><%= t('activities') %></li>
+					<li><%= t('dashboard') %></li>
+				</ul>
+			</div>
+			<div id="menu-user">
+				<ul>
+					<li><%= t('today') %></li>
+					<li><%= t('search') %></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div id="content-left">
 <%= yield %>
-
+		</div>
+		
+		<div id="content-right">
+<%= yield :right %>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<div id="logo"><%= link_to image_tag "ketchup-logo.png", :alt => 'Ketchup' %></div>
+		<div id="legal-text"><p><%= link_to t('product-blog'), 'http://blog.ketchup.jera.com.br' %></p>
+			<p><strong>Ketchup</strong> <%= t('is-a-service-of') %> <%= link_to 'Jera', 'http://www.jera.com.br' %>. 
+				<%= link_to t('privacy-policy') %> | <%= link_to t('term-of-service') %></p>
+		</div>
+		<div id="license"><%= link_to image_tag("license.png", :alt => 'Creative Commons License'),
+		 						'http://creativecommons.org/licenses/by-nc/3.0/' %></div>
+	</div>
+</div>
 </body>
 </html>

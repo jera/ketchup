@@ -7,4 +7,18 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   filter_parameter_logging :password, :password_confirmation
+  
+  # Authentication
+  before_filter :authenticate_user!
+  
+  layout :devise_layout
+  
+  def devise_layout 
+    if params[:controller] =~ /password|sessions/ or
+        (params[:controller] == 'registrations' and params[:action] == 'new')
+      'guest'
+    else
+      'application'
+    end
+  end
 end

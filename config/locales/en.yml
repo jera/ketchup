@@ -1,5 +1,18 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+
+  # User
+  my-info: My info
+  sign-out: Sign out
+  
+  # Menu
+  projects: Projects
+  activities: Activities
+  dashboard: Dashboard
+  today: Today
+  search: Search
+  
+  # Footer
+  is-a-service-of: Is a service of
+  product-blog: Product Blog
+  privacy-policy: Privacy Policy
+  term-of-service: Term of Service

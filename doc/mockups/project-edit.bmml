@@ -1,0 +1,234 @@
+<mockup version="1.0" skin="sketch" measuredW="1057" measuredH="809" mockupW="1000" mockupH="789">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="47" y="10" w="1000" h="789" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Ketchup%0Ahttp%3A//ketchup.jera.com.br/project/new</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="97" y="96" w="900" h="100" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>10027008</color>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ButtonBar" x="97" y="192" w="-1" h="-1" measuredW="248" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Projects%2C%20Activities%2C%20Statistics</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::ButtonBar" x="854" y="195" w="-1" h="-1" measuredW="143" measuredH="29" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Today%2C%20My%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="97" y="230" w="700" h="481" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Canvas" x="99" y="234" w="695" h="63" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>none</borderStyle>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="163" y="250" w="-1" h="-1" measuredW="106" measuredH="29" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Edit%20Project</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="236" y="307" w="468" h="-1" measuredW="88" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>T%F4%20Malhando</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="193" y="308" w="-1" h="-1" measuredW="38" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="160" y="402" w="-1" h="-1" measuredW="71" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="236" y="402" w="468" h="66" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>-%20Rede%20social%20de%20sa%FAde%20e%20qualidade%20de%20vida%0A-%20Compartilhe%20sa%FAde%21%0A-%20Mantenha%5C-se%20motivado</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="172" y="522" w="-1" h="-1" measuredW="59" measuredH="23" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>Members</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextInput" x="236" y="603" w="233" h="-1" measuredW="164" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Type%20username%20to%20search</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Image" x="236" y="527" w="32" h="32" measuredW="73" measuredH="73" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/saulo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="272" y="525" w="-1" h="-1" measuredW="166" measuredH="23" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>Saulo%20Arruda%20%28sauloarruda%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Image" x="236" y="564" w="32" h="32" measuredW="73" measuredH="73" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/porkaria.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="272" y="561" w="-1" h="-1" measuredW="156" measuredH="23" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5263440</color>
+        <text>Bruno%20PorKaria%20%28porkaria%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Button" x="235" y="649" w="-1" h="-1" measuredW="127" measuredH="28" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save%20this%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::HRule" x="94" y="293" w="703" h="-1" measuredW="100" measuredH="5" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>8554646</color>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Icon" x="430" y="564" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5263440</color>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="236" y="473" w="468" h="-1" measuredW="198" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//www.tomalhando.com.br</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="138" y="474" w="-1" h="-1" measuredW="93" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>Homepage%20URL</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="369" y="654" w="-1" h="-1" measuredW="16" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>12</size>
+        <text>or</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="389" y="652" w="-1" h="-1" measuredW="44" measuredH="23" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::HRule" x="236" y="638" w="468" h="-1" measuredW="100" measuredH="5" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>8554646</color>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::HRule" x="236" y="510" w="468" h="-1" measuredW="100" measuredH="5" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>8554646</color>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextInput" x="469" y="339" w="233" h="-1" measuredW="64" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Workout</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="193" y="340" w="-1" h="-1" measuredW="29" measuredH="23" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>URL</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="235" y="340" w="-1" h="-1" measuredW="231" measuredH="23" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>4144959</color>
+        <text>http%3A//ketchup.jera.com.br/projects/</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="706" y="342" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>XIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="469" y="364" w="-1" h="-1" measuredW="154" measuredH="20" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <size>11</size>
+        <text>URL%20used%20for%20another%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="935" y="727" w="62" h="22" measuredW="88" measuredH="31" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cc.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="108" y="240" w="48" h="48" measuredW="1024" measuredH="1024" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/flickr_cca_calliope_225163695.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::HRule" x="236" y="386" w="468" h="-1" measuredW="100" measuredH="5" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>8554646</color>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::IconLabel" x="811" y="240" w="-1" h="-1" measuredW="139" measuredH="23" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>TrashIcon%7Cxsmall</icon>
+        <labelPosition>right</labelPosition>
+        <text>Delete%20this%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="__group__" x="89" y="715" w="-1" h="-1" measuredW="337" measuredH="38" zOrder="31" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="43" h="34" measuredW="1024" measuredH="805" zOrder="0" locked="false" isInGroup="50">
+          <controlProperties>
+            <src>./assets/flickr_ccanc_darrenhester_3907495255.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="41" y="4" w="296" h="34" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="50">
+          <controlProperties>
+            <bold>false</bold>
+            <size>9</size>
+            <text>%5BProduct%20Blog%5D%0A*Ketchup*%20-is%20a%20service%20of-%20%5BJera%5D.%20%20%5BPrivacy%20Policy%5D%20%7C%20%5BTerms%20of%20Service%5D</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Title" x="111" y="134" w="-1" h="-1" measuredW="354" measuredH="56" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15790322</color>
+        <text>Jera%20Software%20%C1gil</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
