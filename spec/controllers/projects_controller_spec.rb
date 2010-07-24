@@ -5,9 +5,9 @@ describe ProjectsController do
   fixtures :users, :projects
   
   before(:each) do
-    @user = users(:jeffmor)
-    request.env['warden'].stubs(:authenticate!) { @user }
-    #sign_in :user, @user
+    @user = User.new(:username => 'jeffmor', :email => 'jeffmor@jera.com.br', :password => 'secret', :password_confirmation => 'secret')
+    request.env['warden'].stubs(:authenticate).returns(@user)
+    request.env['warden'].stubs(:authenticate!).returns(@user)
   end
   
   context "Create Project" do
@@ -43,6 +43,7 @@ describe ProjectsController do
   context "View Projects" do
     it "should show projects of user" do
       get 'index'
+      
       assigns[:projects].size.should == 2
     end
     

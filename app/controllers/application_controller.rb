@@ -14,8 +14,8 @@ class ApplicationController < ActionController::Base
   layout :devise_layout
   
   def devise_layout 
-    if params[:controller] =~ /password|sessions/ or
-        (params[:controller] == 'registrations' and params[:action] == 'new')
+    if params[:controller] =~ /password|sessions|registrations/ #or
+        #(params[:controller] == 'registrations' and params[:action] == 'new')
       'guest'
     else
       'application'
