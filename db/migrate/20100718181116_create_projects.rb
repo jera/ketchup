@@ -3,6 +3,9 @@ class CreateProjects < ActiveRecord::Migration
     create_table :projects do |t|
       t.string :name
       t.integer :owner_id
+      t.string :url
+      t.string :description
+      t.string :homepage_url
 
       t.timestamps
     end

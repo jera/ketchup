@@ -1,9 +1,13 @@
-ketchup:
-  id: 1
-  name: Ketchup
-  owner_id: 1
-
 tomalhando:
-  id: 2
-  name: Tô Malhando
-  owner_id: 2
+    id: 1
+    name: Tô Malhando
+    owner_id: 2
+    url: ToMalhando
+    description: Compartilhe saúde!
+    homepage_url: http://www.tomalhando.com.br
+
+odin:
+    id: 2
+    name: Odin
+    owner_id: 1
+    url: odin
