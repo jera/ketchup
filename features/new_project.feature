@@ -8,10 +8,10 @@ Feature: New Project
       And I am on the new project page
   
   Scenario: Sucessful created project
-    When I fill in "name" with "Tô Malhando"
-      And fill in "url" with "ToMalhando"
-      And fill in "description" with "Rede social de saúde e qualidade de vida"
-      And fill in "homepage" with "http://www.tomalhando.com.br"
+    When I fill in "name" with "Ketchup"
+      And fill in "url" with "ketchup"
+      And fill in "description" with "Pomodoro made easy!"
+      And fill in "homepage" with "http://ketchup.jera.com.br"
       And press "Add project"
     Then I should see "Project was successfully created"
     

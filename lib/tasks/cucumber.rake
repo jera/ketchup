@@ -31,19 +31,6 @@ begin
       t.fork = true # You may get faster startup if you set this to false
       t.profile = 'rerun'
     end
-    
-    Cucumber::Rake::Task.new(:cruise) do |t|
-      t.cucumber_opts = "--format pretty --out=#{ENV['CC_BUILD_ARTIFACTS']}/features.txt --format html --out=#{ENV['CC_BUILD_ARTIFACTS']}/features.html"
-      t.rcov = true
-      t.rcov_opts = %w{--rails --exclude osx\/objc,gems\/,spec\/,features\/}
-      t.rcov_opts << %[-o "#{ENV['CC_BUILD_ARTIFACTS']}/coverage"]
-    end
-
-    Cucumber::Rake::Task.new(:rcov) do |t|    
-      t.rcov = true
-      t.rcov_opts = %w{--rails --exclude osx\/objc,gems\/,spec\/,features\/}
-      t.rcov_opts << %[-o "coverage"]
-    end
 
     desc 'Run all features'
     task :all => [:ok, :wip]

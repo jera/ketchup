@@ -10,16 +10,10 @@ module NavigationHelpers
 
     when /the home\s?page/
       '/'
-      
-    when /the sign up page/
-      '/users/sign_up'
-
-    when /the sign in page/
+    when /sign in page/
       '/users/sign_in'
-      
-    when /the new project page/
-      '/projects/new'
-    
+    when /sign up page/
+      '/users/sign_up'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
