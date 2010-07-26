@@ -9,7 +9,7 @@ describe Project do
       :owner_id => 1,
       :url => 'ketchup',
       :description => 'Pomodoro made easy!',
-      :homepage_url => 'http://ketchup.jera.com.br'
+      :homepage => 'http://ketchup.jera.com.br'
     }
   end
 

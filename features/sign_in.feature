@@ -5,11 +5,10 @@ Feature: Sign in
   
   Background:
     Given I am on the sign in page
-      And the existence of "sauloarruda" user
     
   Scenario: Sucessful sign in
-    When I fill in "username" with "sauloarruda"
-      And fill in "password" with "adurraoluas"
+    When I fill in "username" with "jeffmor"
+      And fill in "password" with "secret"
       And press "Sign in"
     Then I should see "Signed in successfully"
     

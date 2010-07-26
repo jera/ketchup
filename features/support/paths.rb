@@ -16,6 +16,9 @@ module NavigationHelpers
 
     when /the sign in page/
       '/users/sign_in'
+      
+    when /the new project page/
+      '/projects/new'
     
 
     # Add more mappings here.

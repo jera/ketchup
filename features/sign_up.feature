@@ -22,8 +22,7 @@ Feature: Sign Up
       And should see "Password can't be blank"
       
   Scenario: Try with duplicated username
-    Given the existence of "sauloarruda" user
-    When I fill in "username" with "sauloarruda"
+    When I fill in "username" with "jeffmor"
       And press "Sign up"
     Then I should see "Username has already been taken"
     
