@@ -1,3 +1,4 @@
+
 <% form_for(@project) do |f| %>
 
 <div class="highlight">
@@ -19,7 +20,28 @@
   <%= f.label :homepage %>
   <%= f.text_field :homepage %>
 </p>
+<p>
+  <%= f.label :members %>
+  <%= f.text_field :members_a %>
+  <div id="members_div">
+	
+  </div>
+</p>
+
 <p class="submit">
   <%= f.submit 'Add project' %> or <%= link_to 'Cancel', projects_path %>
 </p>
 <% end %>
+
+<% javascript_tag :defer => 'defer' do -%>
+  $(document).ready(function() {
+    $("input#project_members_a")
+		.autocomplete("auto_complete_for_user_username", { multiple: false, minChars: 2 })
+		.result(function(event, username) {
+			$.get('/projects/user_info?username=' + username, function(data) {
+				 $('div#members_div').append(data)
+			})
+			$('input#project_members_a').val('');
+		});
+  });
+<% end -%>

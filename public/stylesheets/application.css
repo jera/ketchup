@@ -144,6 +144,17 @@ div#content-left .title {
 	background: #FFF;
 }
 
+div.user-info {
+	margin: 2px;
+	margin-left: 170px;
+	width: 240px;
+}
+
+div.user-info div.delete {
+	margin-top: 10px;
+	float: right;
+}
+
 /**
  * Content Right
  */
@@ -200,6 +211,11 @@ div#license {
 span.center {
 	display: inline-block;
 	text-align: center;
+}
+
+img.top {
+	vertical-align: top;
+	border: 1px solid #ccc;
 }
 
 #errorExplanation {

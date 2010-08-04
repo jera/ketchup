@@ -10,4 +10,6 @@ class Project < ActiveRecord::Base
     write_attribute(:owner_id, id)
   end
   
+  attr_accessor :members_a
+  
 end

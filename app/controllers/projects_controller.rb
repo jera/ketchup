@@ -1,5 +1,7 @@
 class ProjectsController < ApplicationController
-    
+  
+  auto_complete_for :user, :username  
+  
   # GET /projects
   # GET /projects.xml
   def index
@@ -62,6 +64,11 @@ class ProjectsController < ApplicationController
       format.html { redirect_to(projects_url, :notice => 'Project was successfully destroyed.') }
       format.xml  { head :ok }
     end
+  end
+  
+  def user_info
+    @user = User.find_by_username(params[:username])
+    render :layout => false
   end
   
   private 
