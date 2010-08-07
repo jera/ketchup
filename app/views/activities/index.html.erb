@@ -1,0 +1,32 @@
+<div class="highlight">
+  <div class="title"><h1><%= image_tag 'activity-icon.png' %> Activity List</h1></div>
+  <div class="options"><%= link_to t('new-activity'), new_activity_path %></div>
+  <div class="clear"></div>
+</div>
+
+<% unless @activities.blank? %>
+  <% for activity in @activities %>
+<div class="activity-list">
+	
+	<div class="activity">
+		<div class="unplanned">
+			<%= image_tag('unplanned.png') if activity.unplanned %> &nbsp;
+		</div>
+		<div class="pomodoris">
+			<%= print_pomodoris(activity.estimate, activity.actual) %>
+		</div>
+		<div class="options">
+			<%= image_tag 'reorder.png' %>
+			<%= print_star(activity) %>
+			<%= check_box_tag "complete[#{activity.id}]" %>
+		</div>
+		<div class="title"><%= link_to activity.name %></div>
+		<div class="project"><%= activity.project.name unless activity.project.nil? %> &nbsp;</div>
+		<div class="actions"><%= print_action(activity) %></div>
+		<div class="clear"></div>
+	</div>
+</div>
+	<% end %>
+<% else %>
+  <%= t('there-are-no-activities') %>
+<% end %>

@@ -1,5 +1,29 @@
 create_users_model_spec:
     id: 1
     name: Create users model spec
-    estimate: 1
+    estimate: 2
     project_id: 1
+    today: true
+    
+integrate_with_devise:
+    id: 2
+    name: Integrate with devise
+    estimate: 4
+    project_id: 1
+    
+call_mom:
+    id: 3
+    name: Call mom
+    estimate: 1
+    completed: true
+    
+fix_the_light:
+    id: 4
+    name: Fix the light
+    estimate: 2
+    
+conference_with_jeffmor:
+    id: 5
+    name: Conference with JEFFMOR
+    estimate: 2
+    date: <%= (Time.now + 2).to_s(:db) %>

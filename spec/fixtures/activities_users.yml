@@ -1,3 +1,27 @@
-create_users_model_spec_jeffmor:
+create_users_model_spec_abacha:
     activity_id: 1
     user_id: 2
+    
+integrate_with_devise_abacha:
+    activity_id: 2
+    user_id: 2
+    
+call_mom_abacha:
+    activity_id: 3
+    user_id: 2
+    
+fix_the_light_brunoaa:
+    activity_id: 4
+    user_id: 3
+    
+fix_the_light_jeffmor:
+    activity_id: 4
+    user_id: 1
+    
+conference_with_jeffmor_abacha:
+    activity_id: 5
+    user_id: 2
+    
+conference_with_jeffmor_jeffmor:
+    activity_id: 5
+    user_id: 1

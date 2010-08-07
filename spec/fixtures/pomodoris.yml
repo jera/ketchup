@@ -1,4 +1,8 @@
 create_users_model_spec_1:
-    start: <%= Time.now - 25.minutes %>
-    finish: <%= Time.now %>
+    start: <%= (Time.now - 25.minutes).to_s(:db) %>
+    finish: <%= Time.now.to_s(:db) %>
     activity_id: 1
+    
+integrate_with_devise_1:
+    start: <%= Time.now.to_s(:db) %>
+    activity_id: 2

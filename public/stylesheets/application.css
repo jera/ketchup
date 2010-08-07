@@ -103,6 +103,14 @@ div#content-left div.highlight {
 	margin-bottom: 5px;
 }
 
+div#content-left div.highlight div.title {
+	float: left;
+}
+
+div#content-left div.highlight div.options {
+	float: right;
+}
+
 div#content-left label {
 	display: inline-block;
 	width: 150px;
@@ -141,8 +149,44 @@ div#content-left .w200 {
 
 div#content-left .title {
 	font-size: 16px;
-	background: #FFF;
 }
+
+div#content-left div.activity-list {
+	
+}
+
+div#content-left div.activity-list div.activity {
+	margin: 20px 0px;
+}
+
+div#content-left div.activity-list div.activity div {
+	float: left;
+}
+
+div#content-left div.activity-list div.activity div.unplanned {
+	width: 30px;
+}
+
+div#content-left div.activity-list div.activity div.pomodoris {
+	width: 120px;
+}
+
+div#content-left div.activity-list div.activity div.options {
+	width: 70px;
+}
+
+div#content-left div.activity-list div.activity div.title {
+	width: 350px;
+}
+
+div#content-left div.activity-list div.activity div.project {
+	width: 100px;
+}
+
+div#content-left div.activity-list div.activity div.actions {
+	width: 20px;
+}
+
 
 div.user-info {
 	margin: 2px;
