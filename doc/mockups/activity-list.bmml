@@ -599,142 +599,142 @@
         <icon>UnderlineIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="181" controlTypeID="com.balsamiq.mockups::Image" x="242" y="439" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="99" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="182" controlTypeID="com.balsamiq.mockups::Image" x="242" y="471" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="100" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="183" controlTypeID="com.balsamiq.mockups::Image" x="242" y="325" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="101" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="184" controlTypeID="com.balsamiq.mockups::Image" x="242" y="357" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="102" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="185" controlTypeID="com.balsamiq.mockups::Image" x="242" y="411" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="103" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="187" controlTypeID="com.balsamiq.mockups::CheckBox" x="281" y="540" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="104" locked="false" isInGroup="-1">
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::CheckBox" x="281" y="540" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="99" locked="false" isInGroup="-1">
       <controlProperties>
         <state>up</state>
         <text/>
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="188" controlTypeID="com.balsamiq.mockups::Image" x="242" y="541" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="105" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="189" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="621" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="106" locked="false" isInGroup="-1">
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="621" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="100" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <color>13421772</color>
         <icon>StarIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="190" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="618" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="107" locked="false" isInGroup="-1">
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="618" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="101" locked="false" isInGroup="-1">
       <controlProperties>
         <state>up</state>
         <text/>
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="191" controlTypeID="com.balsamiq.mockups::Image" x="244" y="619" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="108" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="192" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="651" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="109" locked="false" isInGroup="-1">
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="651" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="102" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <color>13421772</color>
         <icon>StarIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="193" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="648" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="110" locked="false" isInGroup="-1">
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="648" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="103" locked="false" isInGroup="-1">
       <controlProperties>
         <state>up</state>
         <text/>
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="194" controlTypeID="com.balsamiq.mockups::Image" x="244" y="649" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="111" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="195" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="681" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="112" locked="false" isInGroup="-1">
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Icon" x="263" y="681" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="104" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <color>13421772</color>
         <icon>StarIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="196" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="678" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="113" locked="false" isInGroup="-1">
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::CheckBox" x="283" y="678" w="-1" h="-1" measuredW="25" measuredH="22" zOrder="105" locked="false" isInGroup="-1">
       <controlProperties>
         <state>up</state>
         <text/>
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="197" controlTypeID="com.balsamiq.mockups::Image" x="244" y="679" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="114" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/Captura%2520de%2520tela%25202010-08-07%2520%25C3%2583%25C2%25A0s%252010.55.45.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="198" controlTypeID="com.balsamiq.mockups::TextArea" x="803" y="267" w="200" h="50" measuredW="200" measuredH="140" zOrder="115" locked="false" isInGroup="-1">
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::TextArea" x="803" y="267" w="200" h="50" measuredW="200" measuredH="140" zOrder="106" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%28Type%20new%20activity%20title%29</text>
       </controlProperties>
     </control>
-    <control controlID="199" controlTypeID="com.balsamiq.mockups::Button" x="803" y="317" w="97" h="28" measuredW="95" measuredH="28" zOrder="116" locked="false" isInGroup="-1">
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Button" x="803" y="317" w="97" h="28" measuredW="95" measuredH="28" zOrder="107" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Add%20activity</text>
       </controlProperties>
     </control>
-    <control controlID="200" controlTypeID="com.balsamiq.mockups::HRule" x="304" y="332" w="114" h="-1" measuredW="100" measuredH="5" zOrder="117" locked="false" isInGroup="-1">
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::HRule" x="304" y="332" w="114" h="-1" measuredW="100" measuredH="5" zOrder="108" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.5</backgroundAlpha>
         <color>472931</color>
       </controlProperties>
     </control>
-    <control controlID="201" controlTypeID="com.balsamiq.mockups::Canvas" x="803" y="360" w="194" h="26" measuredW="100" measuredH="70" zOrder="118" locked="false" isInGroup="-1">
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Canvas" x="803" y="360" w="194" h="26" measuredW="100" measuredH="70" zOrder="109" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <color>8554646</color>
       </controlProperties>
     </control>
-    <control controlID="202" controlTypeID="com.balsamiq.mockups::SubTitle" x="809" y="363" w="-1" h="-1" measuredW="35" measuredH="23" zOrder="119" locked="false" isInGroup="-1">
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::SubTitle" x="809" y="363" w="-1" h="-1" measuredW="35" measuredH="23" zOrder="110" locked="false" isInGroup="-1">
       <controlProperties>
         <color>15658734</color>
         <size>13</size>
         <text>Links</text>
       </controlProperties>
     </control>
-    <control controlID="203" controlTypeID="com.balsamiq.mockups::Link" x="809" y="389" w="-1" h="-1" measuredW="73" measuredH="23" zOrder="120" locked="false" isInGroup="-1">
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Link" x="809" y="389" w="-1" h="-1" measuredW="73" measuredH="23" zOrder="111" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Daily%20Stats</text>
       </controlProperties>
     </control>
-    <control controlID="204" controlTypeID="com.balsamiq.mockups::Link" x="809" y="409" w="-1" h="-1" measuredW="88" measuredH="23" zOrder="121" locked="false" isInGroup="-1">
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::Link" x="809" y="409" w="-1" h="-1" measuredW="88" measuredH="23" zOrder="112" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Weekly%20Stats</text>
       </controlProperties>
     </control>
-    <control controlID="205" controlTypeID="com.balsamiq.mockups::Link" x="809" y="429" w="-1" h="-1" measuredW="91" measuredH="23" zOrder="122" locked="false" isInGroup="-1">
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Link" x="809" y="429" w="-1" h="-1" measuredW="91" measuredH="23" zOrder="113" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Monthly%20Stats</text>
+      </controlProperties>
+    </control>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Image" x="243" y="325" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="114" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::Image" x="243" y="357" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Image" x="243" y="411" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="116" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="209" controlTypeID="com.balsamiq.mockups::Image" x="243" y="439" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="117" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="210" controlTypeID="com.balsamiq.mockups::Image" x="243" y="469" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="211" controlTypeID="com.balsamiq.mockups::Image" x="243" y="541" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="119" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="212" controlTypeID="com.balsamiq.mockups::Image" x="243" y="619" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="213" controlTypeID="com.balsamiq.mockups::Image" x="243" y="649" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="121" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="214" controlTypeID="com.balsamiq.mockups::Image" x="243" y="679" w="-1" h="-1" measuredW="17" measuredH="19" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/reorder.png</src>
       </controlProperties>
     </control>
   </controls>
