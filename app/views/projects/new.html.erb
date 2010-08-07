@@ -22,7 +22,7 @@
 </p>
 <p>
   <%= f.label :members %>
-  <%= f.text_field :members_a %>
+  <%= f.text_field :members_a, :style => 'width: 240px' %>
   <div id="members_div">
 	
   </div>
@@ -36,7 +36,7 @@
 <% javascript_tag :defer => 'defer' do -%>
   $(document).ready(function() {
     $("input#project_members_a")
-		.autocomplete("auto_complete_for_user_username", { multiple: false, minChars: 2 })
+		.autocomplete("auto_complete_for_user_username", { multiple: false, minChars: 1 })
 		.result(function(event, username) {
 			$.get('/projects/user_info?username=' + username, function(data) {
 				 $('div#members_div').append(data)

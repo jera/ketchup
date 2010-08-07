@@ -1,0 +1,4 @@
+create_users_model_spec_1:
+    start: <%= Time.now - 25.minutes %>
+    finish: <%= Time.now %>
+    activity_id: 1

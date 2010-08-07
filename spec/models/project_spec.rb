@@ -19,8 +19,8 @@ describe Project do
   end
   
   it "should belongs to owner (user)" do
-    ketchup = Project.create!(@valid_attributes)
-    ketchup.owner.should == users(:jeffmor)
+    ketchup = projects(:tomalhando)
+    ketchup.owner.should == users(:abacha)
   end
   
   it "should validate presences of name, owner and url" do
